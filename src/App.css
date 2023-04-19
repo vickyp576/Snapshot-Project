@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Playfair+Display:ital,wght@1,600&display=swap');
+body{
+    background-color: aliceblue;
+}
+.title{
+    color: rgb(1, 1, 75);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.searchContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.searchContainer *{
+    margin: 0px 3px;
+}
+.searchContainer input{
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#searchIconContainer{
+    border-radius: 5px;
+    width: 60px;
+    
+}
+#searchIcon{
+    width: 40px;
+    border: none;
+}
+.buttonContainer{
+    text-align: left;
+     margin: 15px 35%; 
+}
+.buttonContainer *{
+    margin: 6.5px;
+}
+button{
+     background-color:rgb(85, 85, 210);  /* rgb(1, 1, 75); */
+    color: white;
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px ;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ImageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ImageContainer *{
+    margin: 10px;
+    width: 400px;
+}
+.image :hover{
+    margin: 0% 2%;
+    width: 105%;
+}
